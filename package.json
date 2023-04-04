@@ -5,6 +5,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "lint": "eslint --fix '**/*.{ts,tsx,js,jsx}' && prettier --write . && sort-package-json",
+    "serve": "http-server -p 3000 docs -c-1",
     "test": "ts-node src/index.ts"
   },
   "devDependencies": {
@@ -12,10 +13,12 @@
     "@types/react-dom": "^18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
+    "antd": "^5.4.0",
     "eslint": "^8.37.0",
     "eslint-config-alloy": "^4.9.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "http-server": "^14.1.1",
     "prettier": "^2.8.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
