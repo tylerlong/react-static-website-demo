@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
+    "@types/react-dom": "^18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
     "eslint": "^8.37.0",
@@ -16,6 +17,8 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "sort-package-json": "^2.4.1",
     "ts-node": "^10.9.1",
     "ttpt": "^0.5.9",
